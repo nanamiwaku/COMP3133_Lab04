@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const User = require('./userSchema'); 
 const app = express();
-const port = 5000;
+const port = 3000;
 const cors = require('cors');
 
 app.use(cors());
